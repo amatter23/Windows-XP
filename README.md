@@ -49,8 +49,8 @@ use command "wallpapercolor color  'like red' "<br />
 use command "navcolor color  'like red' " <br />
 
 ## Skills used
-HTML
- CSS
- JS
+HTML<br />
+ CSS<br />
+ JS<br />
 All project build rules in HTML CSS js 
 don't use any function pure js
