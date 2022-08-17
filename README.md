@@ -20,14 +20,16 @@ Most functions work like the start menu and bottom bar for **windows**
 ### Start menu
 Most of the functions are working <br />
 1-Turn off button<br />
-2-You can open the windows from the sturt menu
+2-You can open the windows from the sturt menu<br />
+![This is a alt text.](/assits/readme/2.gif "")
 ### Bottom bar
 1-Open start menu <br />
 2-Show opened windows<br />
+![This is a alt text.](/assits/readme/3.gif "")
 ### Windows 
 1-All funchinal button window works (close window ,minimize window ,maximize window ![This is a alt text.](/image/sample.png "")<br />
 2-you can move a window like real windows<br />
-![This is a alt text.](/image/sample.png "")
+![This is a alt text.](/assits/readme/4.gif "")
 ## Features
 
 ### Console window
