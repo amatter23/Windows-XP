@@ -16,6 +16,8 @@ Most functions work like the start menu and bottom bar for **windows**
 ### Start menu
 Most of the functions are working
 1-Turn off button
+
+
 2-You can open the windows from the sturt menu
 ### Bottom bar
 1-Open start menu 
