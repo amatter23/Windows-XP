@@ -26,6 +26,28 @@ h6 ,h5{
 .tab {
     padding-left: 15px;
 }
+.phoneScreen{
+    display: none;
+    font-size: 3em;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    margin-top: 25%;
+}
+
+@media (max-width: 1500px) {
+    #HomeSec {
+        display: none;
+    }
+        .phoneScreen {
+            display: flex;
+            
+        }
+    #welcomeWindows{
+        display: none;
+    }
+
+}
 /*-----------------------------------------------------------------------------*/
 /* home page style */ 
 .turnOff{
