@@ -15,7 +15,7 @@ Most functions work like the start menu and bottom bar for **windows**
 
 ## What can you do
 ### Home bage 
-1-open windows by double click on icon
+1-open windows by double click on icon<br />
 ![This is a alt text.](/assits/readme/1.gif "")
 ### Start menu
 Most of the functions are working <br />
