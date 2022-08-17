@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stle.css">
+</head>
+<body>
+        <section class="turnOff">
+            <h1>
+                Oops It's really locked XD
+            </h1>
+            <h2>
+                refresh to open again
+            </h2>
+        </section>
+        <div class="welcomeWindows">
+            <div class="singleScreen" welcomewindow="0">
+                Welcome <br>
+                to the gallery of works in the form of Windows XP
+                <br>
+                Follow the instructions to learn how to use the site 
+                <br>(you can skip if you like)
+            </div>
+            <div class="singleScreen" welcomewindow="1">
+                Windows that work is <br>
+                1-my computer = home page<br>
+                2-command = can control and search can use coment help to know what yo can do by comment<br>
+                3-control panel =<br>
+                4-file manager = projects<br>
+                5-internet = clint revue<br>
+                6-note = send your feedback<br>
+            </div>
+            <div class="singleScreen" welcomewindow="2">
+                <h1>Enter your name</h1>
+                <input class="username" type="text">
+            </div>
+        
+            <div class="singleScreen" welcomewindow="3">
+                Thanks, you can browse now
+            </div>
+            <div class="welcomeWindowsButton">
+                <button id="start" onclick="nextWelcomeWindow()">Start</button>
+                <button id="skip" onclick="closeWelcomeWindow()">skip</button>
+            </div>
+            
+        </div>
+        <section class="home" id="HomeSec"> 
+            <div id="homeIcone">
+                <div class="iconeSide" >
+                    <div class="singleIcone">
+                        <button open="0" id="computerButtom" onClick="reply_click (this)">
+                            <img src="assits/icons/computer.png" alt="">
+                        </button>
+                        <h5>My Computer</h5>
+                    </div>
+                    <div class="singleIcone">
+                        <button open="1" id="CommendButtom" onClick="reply_click (this)">
+                            <img src="assits/icons/command.png" alt="">
+                        </button>
+                        <h5>Commend </h5>
+                    </div>
+                    <div  class="singleIcone">
+                        <button open="2" id="controlPanelButtom"onClick="reply_click (this)" >
+                            <img src="assits/icons/controlPanel.png" alt="">
+                        </button>
+                        <h5>control Panel</h5>
+                    </div>
+                    <div class="singleIcone">
+                        <button open="3" id="FileButtom" onClick="reply_click (this)">
+                            <img src="assits/icons/file.png" alt="">
+                        </button>
+                        <h5>File Maniger</h5>
+                    </div>
+                    <div class="singleIcone">
+                        <button open="4" id="internetButtom" onClick="reply_click (this)">
+                            <img src="assits/icons/internet.png" alt="">
+                        </button>
+                        <h5>Internet</h5>
+                    </div>
+                    <div class="singleIcone">
+                        <button open="5" id="noteButtom" onClick="reply_click (this)">
+                            <img src="assits/icons/notes.png" alt="">
+                        </button>
+                        <h5>Note</h5>
+                    </div>
+                    <!-- <div class="singleIcone">
+                        <button open="6" id="searchButtom" onClick="reply_click (this)" >
+                            <img src="assits/icons/search.png" alt="">
+                        </button>
+                        <h5>Search</h5>
+                    </div> -->
+                </div>
+            </div>
+            <div class="windowConterner">
+                <div class="singleWindow" id="0" show="0" window="0" maxmize="0" onClick="zIndexWindom (this.id) , closeStartMenu()"  >
+                    <div class="toBar" id="0" onmousedown="moveWindow (this) , moveWindow1 (this)" onmouseup="bbb(this)">
+                        <div class="nameIcone">
+                            <img src="assits/icons/computer.png" alt="">
+                            <h5>My Computer</h5>
+                        </div>
+                        <div class="iconeControl">
+                            <button id="0" onClick="minimizeWendow(this.id)"><img src="assits/icons/minimize.png" alt=""></button>
+                            <button id="0" onClick="maxmizeWindow(this)"><img src="assits/icons/maxmize.png" alt=""></button>
+                            <button id="0" onClick="closeWindow(this)"><img src="assits/icons/exsit.png" alt=""></button>
+                        </div>
+                    </div>
+                    <dic class="myComputerContent">
+                        <div class="photo_name">
+                            <div class="photo">
+                                <img src="assits/pexels-pixabay-220453.jpg" alt="">
+                            </div>
+                            <div class="name">
+                                <h1>Jone evar</h1>
+                                <h2> Graphic Designer</h2>
+                            </div>
+                        </div>
+                        <div class="description">
+                            <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum odio doloremque doloribus cupiditate quia non neque provident omnis dolores incidunt esse amet saepe asperiores earum, cum labore, dolorum officia id?</h4>
+                        </div>
+                    </dic>
+                </div>
+                <div class="singleWindow" id="1" show="1" window="1" maxmize="1" onClick="zIndexWindom (this.id) , closeStartMenu()">
+                    <div class="toBar" id="1" onmousedown="moveWindow (this) , moveWindow1 (this)" onmouseup="bbb(this)">
+                        <div class="nameIcone">
+                            <img src="assits/icons/command.png" alt="">
+                            <h5>Commend</h5>
+                        </div>
+                        <div class="iconeControl">
+                            <button id="1" onClick="minimizeWendow(this.id)"><img src="assits/icons/minimize.png" alt=""></button>
+                            <button id="1" onClick="maxmizeWindow(this)"><img src="assits/icons/maxmize.png" alt=""></button>
+                            <button id="1" onClick="closeWindow(this)"><img src="assits/icons/exsit.png" alt=""></button>
+                        </div>
+                    </div>
+
+                    <div class="CommendContent" id="CommendContent">
+                        <h5>Microsoft Windows xp [version matter portfolio v1.2]</h5>
+                        <h5>
+                            how to use cmd in windows xp portfolio <br>
+                            1- turn of wibsite <br>
+                             use command "turnoff"<br><br>
+                            2- switch user name <br>
+                            use command "username your_name"<br><br>
+                            3- open a window<br>
+                            use command "open window_name<span class="tab"></span>'like mycomputer'  "<br><br>
+                            4- change cmd background color<br>
+                            use command "cmdcolor color<span class="tab"></span>'like red' "<br><br>
+                            4- change wallpaper background color<br>
+                            use command "wallpapercolor color<span class="tab"></span>'like red' "<br><br>
+                            5- change nav color<br>
+                            use command "navcolor color<span class="tab"></span>'like red' "<br><br>
+                            
+                        </h5>
+                        <div class="commendSec" commendcount ="0">
+                            <h5>c:\Users\matter _</h5>
+                            <input inputNum="0" value="">
+                            <button supNum="0" id="0"onclick="getdatacommend(this)"></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="singleWindow"  id="2" show="2" window="2" maxmize="2" onClick="zIndexWindom (this.id) , closeStartMenu()">
+                    <div class="toBar" id="2" onmousedown="moveWindow (this) , moveWindow1 (this)" onmouseup="bbb(this)">
+                        <div class="nameIcone">
+                            <img src="assits/icons/controlPanel.png" alt="">
+                            <h5>control Panel</h5>
+                        </div>
+                        <div class="iconeControl">
+                            <button id="2" onClick="minimizeWendow(this.id)"><img src="assits/icons/minimize.png" alt=""></button>
+                            <button id="2" onClick="maxmizeWindow(this)"><img src="assits/icons/maxmize.png" alt=""></button>
+                            <button id="2" onClick="closeWindow(this)"><img src="assits/icons/exsit.png" alt=""></button>
+                        </div>
+                    </div>
+                    <div class="controlBanelcontent">
+                        <div class="apout">
+                            <h1>Apout Me</h1>
+                            <b>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi, totam minima ullam nisi, tempore delectus nesciunt earum, reiciendis labore eos doloremque pariatur alias et. Illum aut molestiae commodi deleniti totam.</b>
+                        </div>
+                        <div class="skills">
+                            <h1>Skills</h1>
+                            <div class="skilsContener">
+                                <div class="singleSkill">
+                                    <h3>Photoshop</h3>
+                                </div>
+                                <div class="singleSkill">
+                                        <h3>Illustrator</h3>
+                                </div>
+                                <div class="singleSkill">
+                                    <h3>Adobe xd</h3>
+                                </div>
+                                <div class="singleSkill">
+                                    <h3>After Effects</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="singleWindow"  id="3" show="3"window="3" maxmize="3"  onClick="zIndexWindom (this.id) , closeStartMenu()">
+                    <div class="toBar" id="3" onmousedown="moveWindow (this) , moveWindow1 (this)" onmouseup="bbb(this)">
+                        <div class="nameIcone">
+                            <img src="assits/icons/file.png" alt="">
+                            <h5>File Maniger</h5>
+                        </div>
+                        <div class="iconeControl">
+                            <button id="3" onClick="minimizeWendow(this.id)"><img src="assits/icons/minimize.png" alt=""></button>
+                            <button id="3" onClick="maxmizeWindow(this)"><img src="assits/icons/maxmize.png" alt=""></button>
+                            <button id="3" onClick="closeWindow(this)"><img src="assits/icons/exsit.png" alt=""></button>
+                        </div>
+                    </div>
+                    <div class="fileManagercontent">
+                        <h1>projects</h1>
+                        <div class="projectContaner">
+                            <div class="project">
+
+                            </div>
+                            <div class="project">
+                            
+                            </div>
+                            <div class="project">
+                            
+                            </div>
+                            <div class="project">
+                            
+                            </div>
+                            <div class="project">
+                            
+                            </div>
+                            <div class="project">
+                            
+                            </div>
+                            <div class="project">
+                            
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="singleWindow"  id="4" show="4" window="4"  maxmize="4" onClick="zIndexWindom (this.id) , closeStartMenu()">
+                    <div class="toBar" id="4" onmousedown="moveWindow (this) , moveWindow1 (this)" onmouseup="bbb(this)">
+                        <div class="nameIcone">
+                            <img src="assits/icons/internet.png" alt="">
+                            <h5>Internet</h5>
+                        </div>
+                        <div class="iconeControl">
+                            <button id="4" onClick="minimizeWendow(this.id)"><img src="assits/icons/minimize.png" alt=""></button>
+                            <button id="4" onClick="maxmizeWindow(this)"><img src="assits/icons/maxmize.png" alt=""></button>
+                            <button id="4" onClick="closeWindow(this)"><img src="assits/icons/exsit.png" alt=""></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="singleWindow"  id="5" show="5" window="5" maxmize="5" onClick="zIndexWindom (this.id) , closeStartMenu()">
+                    <div class="toBar" id="5" onmousedown="moveWindow (this) , moveWindow1 (this)" onmouseup="bbb(this)">
+                        <div class="nameIcone">
+                            <img src="assits/icons/notes.png" alt="">
+                            <h5>Note</h5>
+                        </div>
+                        <div class="iconeControl">
+                            <button id="5" onClick="minimizeWendow(this.id)"><img src="assits/icons/minimize.png" alt=""></button>
+                            <button id="5" onClick="maxmizeWindow(this)"><img src="assits/icons/maxmize.png" alt=""></button>
+                            <button id="5" onClick="closeWindow(this)"><img src="assits/icons/exsit.png" alt=""></button>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="singleWindow"  id="6" show="6" window="6" maxmize="6" onClick="zIndexWindom (this.id) , closeStartMenu()">
+                    <div class="toBar" id="6" onmousedown="moveWindow (this) , moveWindow1 (this)" onmouseup="bbb(this)">
+                        <div class="nameIcone">
+                            <img src="assits/icons/search.png" alt="">
+                            <h5>Search</h5>
+                        </div>
+                        <div class="iconeControl">
+                            <button id="6" onClick="minimizeWendow(this.id)"><img src="assits/icons/minimize.png" alt="" ></button>
+                            <button id="6" onClick="maxmizeWindow(this)"><img src="assits/icons/maxmize.png" alt="" ></button>
+                            <button id="6" onClick="closeWindow(this)"><img src="assits/icons/exsit.png" alt="" ></button>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+            <div class="startMenu" id="startMenu">
+                <div class="namePart">
+                    <img src="assits/wallpaperflare.com_wallpaper.jpg" alt="">
+                    <h3 class="usernamedisplay">matter</h3>
+                </div>
+                <div class="contentPart">
+                    <div class="left">
+                        <div class="content">
+                            <div class="iconStartMenu">
+                                <button open="0" id="computerButtom" onClick="reply_click (this)">
+                                    <img src="assits/icons/computer.png" alt="">
+                                </button>
+                                <h5>My Computer</h5>
+                            </div>
+                            <div class="iconStartMenu">
+                                <button open="1" id="CommendButtom" onClick="reply_click (this)">
+                                    <img src="assits/icons/command.png" alt="">
+                                </button>
+                                <h5>Commend </h5>
+                            </div>
+                            <div class="iconStartMenu">
+                                <button open="2" id="controlPanelButtom"onClick="reply_click (this)">
+                                    <img src="assits/icons/controlPanel.png" alt="">
+                                </button>
+                                <h5>control Panel</h5>
+                            </div>
+                            <div class="iconStartMenu">
+                                <button open="3" id="FileButtom" onClick="reply_click (this)">
+                                    <img src="assits/icons/file.png" alt="">
+                                </button>
+                                <h5>File Maniger</h5>
+                            </div>
+                            <div class="iconStartMenu">
+                                <button open="4" id="internetButtom" onClick="reply_click (this)">
+                                    <img src="assits/icons/internet.png" alt="">
+                                </button>
+                                <h5>Internet</h5>
+                            </div>
+                            <div class="iconStartMenu">
+                                <button open="5" id="noteButtom" onClick="reply_click (this)">
+                                    <img src="assits/icons/notes.png" alt="">
+                                </button>
+                                <h5>Note</h5>
+                            </div>
+                            <!-- <div class="iconStartMenu">
+                                <button open="6" id="searchButtom" onClick="reply_click (this)">
+                                    <img src="assits/icons/search.png" alt="">
+                                </button>
+                                <h5>Search</h5>
+                            </div> -->
+                        </div>
+                        
+                    </div>
+                    <div class="right">
+                        <div class="content">
+                            <div class="iconStartMenu">
+                                <button id="computerButtom">
+                                    <img src="assits/icons/draft/1.png" alt="">
+                                </button>
+                                <h5>test 1</h5>
+                            </div>
+                            <div class="iconStartMenu">
+                                <button>
+                                    <img src="assits/icons/draft/2.png" alt="">
+                                </button>
+                                <h5>Commend </h5>
+                            </div>
+                            <div class="iconStartMenu">
+                                <button id="controlPanelButtom">
+                                    <img src="assits/icons/draft/3.png" alt="">
+                                </button>
+                                <h5>control Panel</h5>
+                            </div>
+                            <div class="iconStartMenu">
+                                <button id="FileButtom">
+                                    <img src="assits/icons/draft/4.png" alt="">
+                                </button>
+                                <h5>File Maniger</h5>
+                            </div>
+                            <div class="iconStartMenu">
+                                <button id="internetButtom">
+                                    <img src="assits/icons/internet.png" alt="">
+                                </button>
+                                <h5>Internet</h5>
+                            </div>
+                            <div class="iconStartMenu">
+                                <button id="noteButtom">
+                                    <img src="assits/icons/notes.png" alt="">
+                                </button>
+                                <h5>Note</h5>
+                            </div>
+                            <div class="iconStartMenu">
+                                <button id="searchButtom">
+                                    <img src="assits/icons/search.png" alt="">
+                                </button>
+                                <h5>Search</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="turnoffPart">
+                    <div class="offButtom">
+                        <button>
+                            <img src="assits/icons/loogoff.png" alt="">
+                        </button>
+                        <h4>Log Off</h4>
+                    </div>
+                    <div class="offButtom" id="turnOffComputerButton">
+                        <button onclick="turnoff ()">
+                            <img src="assits/icons/turnoff.png" alt="">
+                        </button>
+                        <h4>Turn Off Computer</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="navPar" id="navPar">
+                <img class="" id="startButtom" src="assits/icons/startBettom.png" alt="">
+                <div class="navSideIndicator">
+                    <div class="singleIndicator" id="dsds" show= "0" onClick="zIndexWindom (0)  ,minimizeWendowOpen(0)" >
+                        <img src="assits/icons/computer.png" alt="">
+                        <h5>My Computer</h5>
+                    </div>
+                    <div class="singleIndicator"show= "1" onClick="zIndexWindom (1) ,minimizeWendowOpen(1)">
+                        <img src="assits/icons/command.png" alt="">
+                        <h5>Commend</h5>
+                    </div>
+                    <div class="singleIndicator" show= "2" onClick="zIndexWindom (2),minimizeWendowOpen(2)">
+                        <img src="assits/icons/controlPanel.png" alt="">
+                        <h5>control Panel</h5>
+                    </div>
+                    <div class="singleIndicator" show= "3" onClick="zIndexWindom (3) ,minimizeWendowOpen(3)">
+                        <img src="assits/icons/file.png" alt="">
+                        <h5>File Maniger</h5>
+                    </div>
+                    <div class="singleIndicator" show= "4" onClick="zIndexWindom (4),minimizeWendowOpen(4)">
+                        <img src="assits/icons/internet.png" alt="">
+                        <h5>Internet</h5>
+                    </div>
+                    <div class="singleIndicator" show= "5" onClick="zIndexWindom (5) ,minimizeWendowOpen(5)">
+                        <img src="assits/icons/notes.png" alt="">
+                        <h5>Note</h5>
+                    </div>
+                    <!-- <div class="singleIndicator" show= "6" onClick="zIndexWindom (6) ,minimizeWendowOpen(6)">
+                        <img src="assits/icons/search.png" alt="">
+                        <h5>Search</h5>
+                    </div> -->
+                
+                
+                </div>
+            </div>
+            <div>
+                <div id="test1">
+
+                </div>
+            </div>
+        </section>
+    <script src="index.js"></script>
+</body>
+</html>
