@@ -1,6 +1,6 @@
 # Welcome to Windows XP  Protfolio
 
-Hi! This site is a portfolio in the form of windows XP, I know that it is a little strange, but follow me to understand it<br /><br /><br /><br />
+Hi! This site is a portfolio in the form of windows XP, I know that it is a little strange, but follow me to understand it<br /><br />
 
 ![This is a alt text.](/assits/555.png "")
 
