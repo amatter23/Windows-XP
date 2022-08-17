@@ -47,3 +47,10 @@ use command "cmdcolor color  'like red'  "<br />
 use command "wallpapercolor color  'like red' "<br />
 5- change nav color<br />
 use command "navcolor color  'like red' " <br />
+
+## Skills used
+HTML
+ CSS
+ JS
+All project build rules in HTML CSS js 
+don't use any function pure js
