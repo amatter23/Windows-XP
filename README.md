@@ -27,7 +27,7 @@ Most of the functions are working <br />
 2-Show opened windows<br />
 ![This is a alt text.](/assits/readme/3.gif "")
 ### Windows 
-1-All funchinal button window works (close window ,minimize window ,maximize window ![This is a alt text.](/image/sample.png "")<br />
+1-All funchinal button window works (close window ,minimize window ,maximize window<br />
 2-you can move a window like real windows<br />
 ![This is a alt text.](/assits/readme/4.gif "")
 ## Features
