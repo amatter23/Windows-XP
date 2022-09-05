@@ -14,7 +14,7 @@ function moveWindow1 (elment){
     document.body.addEventListener("mousemove"  ,mousmove)
 }
 function mousmove1(){
-
+//fgtfgf
 }
 function mousmove (event) {
     var xposition = event.pageX;
